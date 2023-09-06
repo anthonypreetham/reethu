@@ -1,56 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CI/CD in DevOps</title>
+    <title>Fractional Numbers</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        .header {
-            background-color: #3498db;
-            color: white;
+        /* CSS for styling the fractional part */
+        .fraction {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 4px; /* Adjust the margin as needed */
+            font-size: 0.8em; /* Adjust the font size as needed */
             text-align: center;
-            padding: 2rem;
         }
-        .content {
-            margin: 2rem;
-            padding: 2rem;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .numerator {
+            border-top: 1px solid #000;
+            display: block;
         }
-        .footer {
-            text-align: center;
-            margin-top: 2rem;
-            padding: 1rem;
-            background-color: #3498db;
-            color: white;
-            font-size: 1.2rem;
-        }
-        .image {
-            text-align: center;
-            margin-top: 2rem;
+        .denominator {
+            border-bottom: 1px solid #000;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Understanding CI/CD in DevOps</h1>
-    </div>
+    <p>Using HTML Subscript and Superscript:</p>
+    <p>1<sup>1</sup>/<sub>2</sub></p>
     
-    <div class="content">
-        <p>Continuous Integration and Continuous Deployment (CI/CD) is a fundamental practice in DevOps.</p>
-        <p>CI involves the automatic integration of code changes into a shared repository, followed by automated builds and tests. This helps identify issues early.</p>
-        <p>CD extends CI by automating the deployment of validated code changes to production-like environments, ensuring frequent and reliable releases.</p>
-        <p>CI/CD pipelines streamline development, improve collaboration, and deliver software with speed and quality.</p>
-    </div>
-
-    <div class="footer">
-        Thanks for reading! - Mathew Joseph
-    </div>
+    <p>Using CSS Styling:</p>
+    <p>3<span class="fraction"><span class="numerator">1</span>/<span class="denominator">4</span></span></p>
 </body>
 </html>
-
